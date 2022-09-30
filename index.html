@@ -5,6 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Imago - Diagnóstico por Imagem</title>
 
+	<!--Fonte-->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"
+
 	<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -51,6 +54,74 @@
 			</nav>
 		</div>
 	</header>
+
+	<main>
+		<div class="container-fluid">
+			<div id="mainSlider" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+					<li data-target="#mainSlider" data-slide-to="1"></li>
+					<li data-target="#mainSlider" data-slide-to="2"></li>
+					<li data-target="#mainSlider" data-slide-to="3"></li>
+					<li data-target="#mainSlider" data-slide-to="4"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="img/slidde1.jpg" class="d-block w-100" alt="Novos horários de funcionamento">
+						<div class="carousel-caption d-none d-md-block">
+							<h2>Qual o melhor horário para você?</h2>
+							<p>Conte conosco, escolha o melhor horário para o seu exame</p>
+							<a href="#" class="main-btn">Ver horários</a>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<img src="img/slidde2.jpg" class="d-block w-100" alt="Local de entrega de exames">
+						<div class="carousel-caption d-none d-md-block">
+							<h2>Novo local de entrega</h2>
+							<p>Saiba mais, veja nosso novo local de entrega de exames</p>
+							<a href="#" class="main-btn">Ver localização</a>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<img src="img/slidde3.jpg" class="d-block w-100" alt="Exames aos finais de semana">
+						<div class="carousel-caption d-none d-md-block">
+							<h2>Você quer realizar exames nos finais de semana?</h2>
+							<p>Conte com a gente, e realize seus exames no final de semana</p>
+							<a href="#" class="main-btn">Agendar exame</a>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<img src="img/slidde4.jpg" class="d-block w-100" alt="Unidade de Queimadas">
+						<div class="carousel-caption d-none d-md-block">
+							<h2>A Imago está mais perto de você</h2>
+							<p>Contamos com uma unidade em Queimadas, venha conferir</p>
+							<a href="#" class="main-btn">Ver localização</a>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<img src="img/slidde5.jpg" class="d-block w-100" alt="Equipe médica">
+						<div class="carousel-caption d-none d-md-block">
+							<h2>Quer saber quem vai lhe atender?</h2>
+							<p>Saiba mais sobre nossa equipe médica</p>
+							<a href="#" class="main-btn">Equipe Médica</a>
+						</div>
+					</div>
+				</div>
+				<a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previus</span>
+				</a>
+				<a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</main>
 	<script src="js/scripts.js"></script>
 </body>
 </html>
