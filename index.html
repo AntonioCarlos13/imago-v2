@@ -6,15 +6,15 @@
 	<title>Imago - Diagnóstico por Imagem</title>
 
 	<!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Estilo customizado -->
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 
 	<!-- Scripts -->
-	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 	<!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -26,7 +26,31 @@
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 </head>
 <body>
-	<h1>Teste</h1>
+	<header>
+		<div class="container" id="nav-container">
+			<nav class="navbar navbar-expand-lg fixed-top">
+				<a href="#" class="navbar-brand">
+					<img id="logo" src="img/logo-branca.png" alt="Imago">
+				</a>
+			
+				<button class="navbar-toggler" type="button" data-toggle="collapse" 
+					data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+					
+					<span class="navbar-toggler-icon"></span>
+				</button>	
+				<div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+					<div class="navbar-nav">
+						<a class="nav-item nav-link" id="home-menu">Home</a>
+						<a class="nav-item nav-link" id="medicos-menu">Médicos</a>
+						<a class="nav-item nav-link" id="exames-menu">Exames</a>
+						<a class="nav-item nav-link" id="contato-menu">Contato</a>
+						<a class="nav-item nav-link" id="agendar-menu">Agendar Exames</a>
+						<a class="nav-item nav-link" id="resultado-menu">Resultado de Exames</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
 	<script src="js/scripts.js"></script>
 </body>
 </html>
