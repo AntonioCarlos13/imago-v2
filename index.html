@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Imago - Diagnóstico por Imagem</title>
 	<link rel="icon" href="img/favicon.png">
-	
+
 	<!--Fonte-->
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
@@ -23,7 +23,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 	<!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
 
     <!-- Progress Bar -->
     <script src="js/progressbar.min.js"></script>
@@ -32,6 +32,8 @@
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 </head>
 <body>
+
+	<!-- Barra de Navegação -->
 	<header>
 		<div class="container" id="nav-container">
 			<nav class="navbar navbar-expand-lg fixed-top">
@@ -60,6 +62,8 @@
 
 	<main>
 		<div class="container-fluid">
+
+			<!-- Slider -->
 			<div id="mainSlider" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#mainSlider" data-slide-to="0" class="active"></li>
@@ -123,6 +127,8 @@
 					<span class="sr-only">Next</span>
 				</a>
 			</div>
+
+			<!-- Sobre a empresa -->
 			<div id="about-area">
 				<div class="container">
 					<div class="row">
@@ -134,8 +140,7 @@
 						</div>
 						<div class="col-md-5">
 							<h3 class="about-title">Uma clínica que pensa no futuro</h3>
-							<p>Nossos exames são nítidos e seguros para nossos pacientes.</p>
-							<p>Após o paciente realizar o exame, analizamos cuidadosamente as imagens e após essa etapa é liberado o laudo.</p>
+							<p>Nossos exames são nítidos e seguros para nossos pacientes. Após o paciente realizar o exame, analizamos cuidadosamente as 	imagens e após essa etapa é liberado o laudo.</p>
 							<p>Nossos médicos são especializados em diagnóstico por imagem, pensando sempre na qualidade de diagnóstico e atendimento.</p>
 							<p>Veja nossos diferenciais:</p>
 							<ul id="about-list">
@@ -145,6 +150,70 @@
 								<li><i class="fas fa-check"></i> Prezamos pelo atendimento humanizado</li>
 								<li><i class="fas fa-check"></i> Agilidade na realização e na entrega dos exames</li>
 							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Exames/Procedimentos-->
+			<div id="services-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<h3 class="main-title">Exames / Procedimentos</h3>
+						</div>
+						<div class="col-md-4 service-box">
+							<i class="fas fa-bolt"></i>
+							<h4>Radiografia Digital</h4>
+							<p>O exame de raios X ou radiografia é um exame solicitado frequentemente para investigar fraturas, problemas pulmonares e outras condições. O exame é contraindicado para gestantes. Informe ao médico se houver suspeita de gravidez.</p>
+						</div>
+
+						<div class="col-md-4 service-box">
+							<i class="fas fa-child"></i>
+							<h4>Ultrassonografia</h4>
+							<p>A ultrassonografia, também chamada ultrassom é um exame de imagem realizado através de um transdutor que emite e capta ondas sonoras por meio do contato com o corpo humano. É um exame inofensivo feito geralmente em crianças e grávidas.</p>
+						</div>
+
+						<div class="col-md-4 service-box">
+							<i class="fas fa-female"></i>
+							<h4>Mamografia</h4>
+							<p>A mamografia é um exame radiológico feito nas mamas. Possui alta resolução e fornece imagens detalhadas capazes de identificar precocemente o câncer de mama. Esse exame possibilita identificar nas mamas: calcificações, nódulos e tumores.</p>
+						</div>
+
+						<div class="col-md-4 service-box">
+							<i class="fas fa-heartbeat"></i>
+							<h4>Ecocardiograma</h4>
+							<p>O ecocardiograma é um exame que utiliza de ondas sonoras para obter imagens do coração. O ecocardiograma é fundamental para verificar se o coração e as válvulas estão funcionando adequadamente além de detectar malformações cardíacas.</p>
+						</div>
+
+						<div class="col-md-4 service-box">
+							<i class="fas fa-desktop"></i>
+							<h4>Tomografia Computadorizada</h4>
+							<p>A Tomografia é um exame que permite a visualização de órgãos, estruturas e tecidos de forma muito detalhada. É um exame essencial na identificação de tumores, acidente vascular cerebral (AVC), aneurismas, embolia pulmonar e mesmo nódulos bem pequenos</p>
+						</div>
+
+						<div class="col-md-4 service-box">
+							<i class="fas fa-magnet"></i>
+							<h4>Ressonância Magnética</h4>
+							<p>O exame de ressonância magnética cria imagens em alta definição em 3D. É um exame que não emite radiação, sua aplicação se estende a todas as partes do corpo humano. A ressonância pode identificar doenças neurológicas, ortopédicas, abdominais, cervicais e cardíacas.</p>
+						</div>
+
+						<div class="col-md-4 service-box">
+							<i class="fas fa-brain"></i>
+							<h4>Eletroencefalograma</h4>
+							<p>Trata-se de um exame que analisa a atividade elétrica cerebral espôntanea. Esse exame pode identificar alterações da atividade elétrica cerebral, epilepsia ou episódios de alteração da consciência.</p>
+						</div>
+
+						<div class="col-md-4 service-box">
+							<i class="fas fa-bone"></i>
+							<h4>Densitometria Óssea</h4>
+							<p>Normalmente é um exame realizado capaz de quantificar a massa óssea em regiões como coluna lombar e fêmur, e fazer diagnóstico de osteopenia e osteoporose, para tratá-las e podendo, prevenir futuras fraturas. </p>
+						</div>
+
+						<div class="col-md-4 service-box">
+							<i class="fas fa-vials"></i>
+							<h4>Biópsia</h4>
+							<p>A biópsia é um exame no qual é coletado material de uma lesão ou de um órgão do corpo do paciente. Dessa forma, é possível obter informações precisas das lesões ou o grau de comprometimento de um tecido por doenças. </p>
 						</div>
 					</div>
 				</div>
