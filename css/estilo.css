@@ -38,17 +38,21 @@ header, .navbar{
 	color: #fff;
 }
 
-.navbar-brand:hover{
+#navbar-links a{
 	color: #fff;
 }
 
-#navbar-links a{
-	color: #fff;
+#navbar-links a:hover{
+	color: #65daf9;
+	transition: all 0.5s ease;
+	cursor: pointer;
+	text-decoration: underline;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link{
 	padding: 1rem .8rem;
 }
+
 
 /*Slider*/
 .container-fluid{
@@ -205,6 +209,7 @@ header, .navbar{
 }
 
 .slide-container{
+	margin-top: -40px;
   max-width: 1120px;
   width: 100%;
   padding: 40px 0;
@@ -665,4 +670,153 @@ footer .bottom-details .bottom_text{
   footer .content .link-boxes .input-box{
     width: 100%;
   }
+}
+
+/* Correções de Responsividade para Tablet */
+@media(max-width: 768px){
+
+	/* Reduzir o espaçamento das seções */
+	.container{
+		padding: 20px 0;
+	}
+
+	/* Slider */
+	#mainSlider .carousel-inner, #mainSlider .carousel-item{
+		height: auto;
+	}
+
+	#mainSlider .carousel-caption h2{
+		font-size: 28px;
+	}
+
+	#mainSlider .carousel-caption p{
+		font-size: 18px;
+		margin-bottom: 40px;
+	}
+
+	.carousel-caption{
+		left: 10%;
+		right: 10%;
+	}
+
+	/* Sobre a empresa */
+	#about-area img{
+		margin-top: 160px;
+	}
+
+	/* Dados da Empresa */
+	.circle-box div{
+		padding: 0 10px;
+	}
+
+	#data-area p{
+		font-size: 16px;
+	}
+
+	/* Boletim de Notícias */
+	#news-area p{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#email-input{
+		width: 70%;
+		margin-bottom: 20px;
+	}
+
+	/* Chamada para Ação */
+	#call-area .container{
+		padding: 30px;
+	}
+
+	#call-area p, #call-area #call-btn{
+		font-size: 18px;
+	}
+
+	/* Contato */
+	#contact-area{
+		font-size: 14px;
+	}
+
+	#contact-area .contact-box{
+		padding: 0 3px;
+	}
+
+	footer .bottom-details span{
+		width: 90%;
+		text-align: center;
+	}
+}
+
+/* Correções de Responsividade para Celular */
+@media(max-width: 425px){
+
+	/* Slider */
+	#mainSlider{
+		margin-top: 90px;
+	}
+
+	#mainSlider .carousel-caption{
+		top: 5%;
+	}
+
+	#mainSlider .carousel-caption h2{
+		font-size: 18px;
+		margin-bottom: 40px;
+	}
+
+	#mainSlider .carousel-caption p{
+		display: none;
+	}
+
+	.carousel-caption main-btn{
+		font-size: 14px;
+	}
+
+	/* Sobre a empresa */
+	.main-title{
+		font-size: 30px;
+	}
+
+	#about-area img{
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+
+	/* Dados da Empresa */
+	.circle-box{
+		width: 50%;
+	}
+
+	/* Boletim de Notícias */
+
+	#news-area .main-title{
+		font-size: 24px;
+	}
+
+	#news-area p{
+		font-size: 16px;
+	}
+
+	#email-input{
+		width: 80%;
+	}
+
+	/* Chamada para Ação */
+	#call-area p, #call-area #call-btn{
+		font-size: 16px;
+		letter-spacing: 0;
+		margin: 0;
+		width: 50%;
+	}
+
+	#call-area{
+		padding-bottom: 10px;
+	}
+
+	/* Contato */
+	.contact-box p{
+		padding: 0 10px;
+	}
 }

@@ -11,13 +11,13 @@
 	<!-- Swiper CSS -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
 
-	<!-- Fonte -->
+	<!-- Font -->
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
 	<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <!-- Estilo customizado -->
+    <!-- Custom style -->
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 
 	<!-- Scripts -->
@@ -37,19 +37,20 @@
 </head>
 <body>
 
-	<!-- Barra de Navegação -->
+	<!-- Navigation Bar -->
 	<header>
 		<div class="container" id="nav-container">
-			<nav class="navbar navbar-expand-lg fixed-top">
+			<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
 				<a href="#" class="navbar-brand">
 					<img id="logo" src="img/logo-branca.png" alt="Imago">
 				</a>
 			
-				<button class="navbar-toggler" type="button" data-toggle="collapse" 
-					data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-					
-					<span class="navbar-toggler-icon"></span>
-				</button>	
+				<!-- Menu Hamburguer-->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+				aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+	            	<span class="navbar-toggler-icon"></span>
+	          	</button>
+
 				<div class="collapse navbar-collapse justify-content-end" id="navbar-links">
 					<div class="navbar-nav">
 						<a class="nav-item nav-link" id="home-menu">Home</a>
@@ -78,8 +79,8 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="img/slidde1.jpg" class="d-block w-100" alt="Novos horários de funcionamento">
-						<div class="carousel-caption d-none d-md-block">
+						<img src="img/slide1.jpg" class="d-block w-100" alt="Novos horários de funcionamento">
+						<div class="carousel-caption d-md-block">
 							<h2>Qual o melhor horário para você?</h2>
 							<p>Conte conosco, escolha o melhor horário para o seu exame</p>
 							<a href="#" class="main-btn">Ver horários</a>
@@ -87,8 +88,8 @@
 					</div>
 
 					<div class="carousel-item">
-						<img src="img/slidde2.jpg" class="d-block w-100" alt="Local de entrega de exames">
-						<div class="carousel-caption d-none d-md-block">
+						<img src="img/slide2.jpg" class="d-block w-100" alt="Local de entrega de exames">
+						<div class="carousel-caption d-md-block">
 							<h2>Novo local de entrega</h2>
 							<p>Saiba mais, veja nosso novo local de entrega de exames</p>
 							<a href="#" class="main-btn">Ver localização</a>
@@ -96,17 +97,17 @@
 					</div>
 
 					<div class="carousel-item">
-						<img src="img/slidde3.jpg" class="d-block w-100" alt="Exames aos finais de semana">
-						<div class="carousel-caption d-none d-md-block">
-							<h2>Você quer realizar exames nos finais de semana?</h2>
+						<img src="img/slide3.jpg" class="d-block w-100" alt="Exames aos finais de semana">
+						<div class="carousel-caption d-md-block">
+							<h2>Quer realizar exames nos finais de semana?</h2>
 							<p>Conte com a gente, e realize seus exames no final de semana</p>
 							<a href="#" class="main-btn">Agendar exame</a>
 						</div>
 					</div>
 
 					<div class="carousel-item">
-						<img src="img/slidde4.jpg" class="d-block w-100" alt="Unidade de Queimadas">
-						<div class="carousel-caption d-none d-md-block">
+						<img src="img/slide4.jpg" class="d-block w-100" alt="Unidade de Queimadas">
+						<div class="carousel-caption d-md-block">
 							<h2>A Imago está mais perto de você</h2>
 							<p>Contamos com uma unidade em Queimadas, venha conferir</p>
 							<a href="#" class="main-btn">Ver localização</a>
@@ -114,8 +115,8 @@
 					</div>
 
 					<div class="carousel-item">
-						<img src="img/slidde5.jpg" class="d-block w-100" alt="Equipe médica">
-						<div class="carousel-caption d-none d-md-block">
+						<img src="img/slide5.jpg" class="d-block w-100" alt="Equipe médica">
+						<div class="carousel-caption d-md-block">
 							<h2>Quer saber quem vai lhe atender?</h2>
 							<p>Saiba mais sobre nossa equipe médica</p>
 							<a href="#" class="main-btn">Equipe Médica</a>
@@ -132,17 +133,17 @@
 				</a>
 			</div>
 
-			<!-- Sobre a empresa -->
+			<!-- About the company -->
 			<div id="about-area">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
 							<h3 class="main-title">Sobre a Imago</h3>
 						</div>
-						<div class="col-md-7">
+						<div class="col-md-6">
 							<img class="img-fluid" src="img/sobre-a-empresa.jpg" alt="Imago">
 						</div>
-						<div class="col-md-5">
+						<div class="col-md-6">
 							<h3 class="about-title">Uma clínica que pensa no futuro</h3>
 							<p>Nossos exames são nítidos e seguros para nossos pacientes. Após o paciente realizar o exame, analizamos cuidadosamente as 	imagens e em seguida é liberado o laudo.</p>
 							<p>Nossos médicos são especializados em diagnóstico por imagem, sempre visando a qualidade do diagnóstico e atendimento ao paciente.</p>
@@ -159,7 +160,7 @@
 				</div>
 			</div>
 
-			<!-- Exames/Procedimentos -->
+			<!-- Exams/Procedures -->
 			<div id="services-area">
 				<div class="container">
 					<div class="row">
@@ -223,7 +224,7 @@
 				</div>
 			</div>
 
-			<!-- Dados da empresa -->
+			<!-- Company data -->
 			<div id="data-area">
 				<div class="container">
 					<div class="row">
@@ -250,7 +251,7 @@
 				</div>
 			</div>
 
-			<!-- Nosso Time -->
+			<!-- Our team -->
 			<div id="team-area">
 				<div class="container">
 					<div class="row">
@@ -438,6 +439,8 @@
 					</div>
 				</div>
 			</div>
+
+			<!-- Contact Area -->
 			<div id="contact-area">
 				<div class="container">
 					<div class="row">
