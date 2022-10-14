@@ -6,7 +6,25 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Imago - Diagnóstico por Imagem</title>
-	<link rel="icon" href="img/favicon.png">
+
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="./img/favicons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="./img/favicons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="./img/favicons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="./img/favicons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="./img/favicons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="./img/favicons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="./img/favicons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="./img/favicons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="./img/favicons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="./img/favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
 
 	<!-- Swiper CSS -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
@@ -58,8 +76,9 @@
 						<a class="nav-item nav-link" id="services-menu">Exames</a>
 						<a class="nav-item nav-link" id="team-menu">Time</a>
 						<a class="nav-item nav-link" id="contact-menu">Contato</a>
-						<a class="nav-item nav-link" id="schedule-menu">Agendar Exames</a>
-						<a class="nav-item nav-link" id="result-menu">Resultado de Exames</a>
+						<a target="_blank" href="https://pacs.imagoradiologia.com.br/Netris-web/agendamentoExterno/login" class="nav-item nav-link" id="schedule-menu">Agendar Exames</a>
+						<a target="_blank" href="http://pacs.imagoradiologia.com.br/" class="nav-item nav-link" id="result-menu">Resultado de Exames</a>
+						
 					</div>
 				</div>
 			</nav>
@@ -70,17 +89,16 @@
 		<div class="container-fluid">
 
 			<!-- Slider -->
-			<div id="mainSlider" class="carousel slide" data-ride="carousel">
+			<section id="mainSlider" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#mainSlider" data-slide-to="0" class="active"></li>
 					<li data-target="#mainSlider" data-slide-to="1"></li>
 					<li data-target="#mainSlider" data-slide-to="2"></li>
 					<li data-target="#mainSlider" data-slide-to="3"></li>
-					<li data-target="#mainSlider" data-slide-to="4"></li>
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="img/slide1.jpg" class="d-block w-100" alt="Novos horários de funcionamento">
+						<img src="img/slide1.png" class="d-block w-100" alt="Novos horários de funcionamento">
 						<div class="carousel-caption d-md-block">
 							<h2>Qual o melhor horário para você?</h2>
 							<p>Conte conosco, escolha o melhor horário para o seu exame</p>
@@ -89,7 +107,7 @@
 					</div>
 
 					<div class="carousel-item">
-						<img src="img/slide2.jpg" class="d-block w-100" alt="Local de entrega de exames">
+						<img src="img/slide2.png" class="d-block w-100" alt="Local de entrega de exames">
 						<div class="carousel-caption d-md-block">
 							<h2>Novo local de entrega</h2>
 							<p>Saiba mais, veja nosso novo local de entrega de exames</p>
@@ -98,7 +116,7 @@
 					</div>
 
 					<div class="carousel-item">
-						<img src="img/slide3.jpg" class="d-block w-100" alt="Exames aos finais de semana">
+						<img src="img/slide3.png" class="d-block w-100" alt="Exames aos finais de semana">
 						<div class="carousel-caption d-md-block">
 							<h2>Quer realizar exames nos finais de semana?</h2>
 							<p>Conte com a gente, e realize seus exames no final de semana</p>
@@ -107,7 +125,7 @@
 					</div>
 
 					<div class="carousel-item">
-						<img src="img/slide4.jpg" class="d-block w-100" alt="Unidade de Queimadas">
+						<img src="img/slide4.png" class="d-block w-100" alt="Unidade de Queimadas">
 						<div class="carousel-caption d-md-block">
 							<h2>A Imago está mais perto de você</h2>
 							<p>Contamos com uma unidade em Queimadas, venha conferir</p>
@@ -115,14 +133,6 @@
 						</div>
 					</div>
 
-					<div class="carousel-item">
-						<img src="img/slide5.jpg" class="d-block w-100" alt="Equipe médica">
-						<div class="carousel-caption d-md-block">
-							<h2>Quer saber quem vai lhe atender?</h2>
-							<p>Saiba mais sobre nossa equipe médica</p>
-							<a href="#" class="main-btn">Equipe Médica</a>
-						</div>
-					</div>
 				</div>
 				<a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -132,10 +142,10 @@
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
 					<span class="sr-only">Next</span>
 				</a>
-			</div>
+			</section>
 
 			<!-- About the company -->
-			<div id="about-area">
+			<section id="about-area">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -159,10 +169,10 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 
 			<!-- Exams/Procedures -->
-			<div id="services-area">
+			<section id="services-area">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -223,10 +233,10 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 
 			<!-- Company data -->
-			<div id="data-area">
+			<section id="data-area">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-3 circle-box">
@@ -250,10 +260,10 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 
 			<!-- Our team -->
-			<div id="team-area">
+			<section id="team-area">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -415,10 +425,10 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 
 			<!-- Newsletter -->
-			<div id="news-area">
+			<section id="news-area">
 				<div class="container">
 					<div class="col-md-12">
 						<h3 class="main-title">Economize seu dinheiro</h3>
@@ -429,20 +439,20 @@
 						<input type="submit" id="news-btn" value="Inscrever">
 					</form>
 				</div>
-			</div>
+			</section>
 
 			<!-- Call to action -->
-			<div id="call-area">
+			<section id="call-area">
 				<div class="container">
 					<div class="row">
 						<p>Deseja agendar o seu exame?</p>
-						<button class="main-btn" id="call-btn">Agendar</button>
+						<a target="_blank" href="https://pacs.imagoradiologia.com.br/Netris-web/agendamentoExterno/login" class="main-btn" id="call-btn">Agendar</a>
 					</div>
 				</div>
-			</div>
+			</section>
 
 			<!-- Contact Area -->
-			<div id="contact-area">
+			<section id="contact-area">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
@@ -470,7 +480,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		</div>
 	</main>
 
@@ -522,7 +532,7 @@
 		</div>
 		<div class="bottom-details">
 			<div class="bottom_text">
-				<span class="copyright_text">Copyright &#169; 2022 Imago Diagnóstico por Imagem. Todos os direitos reservados | Desenvolvido por <a href="#">Antônio Carlos</a></span>
+				<span class="copyright_text">Copyright &#169; 2022 Imago Diagnóstico por Imagem. Todos os direitos reservados | Desenvolvido por <a href="https://github.com/AntonioCarlos13" target="_blank">Antônio Carlos</a></span>
 			</div>
 		</div>
 	</footer>

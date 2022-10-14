@@ -2,7 +2,10 @@
 
 
 /*Configurações Gerais*/
-body{
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -46,7 +49,7 @@ header, .navbar{
 	color: #65daf9;
 	transition: all 0.5s ease;
 	cursor: pointer;
-	text-decoration: underline;
+	
 }
 
 .navbar-expand-lg .navbar-nav .nav-link{
@@ -85,7 +88,7 @@ header, .navbar{
 	text-transform: uppercase;
 	width: 200px;
 	height: 60px;
-	padding: 10px 20px;
+	padding: 15px 20px;
 	border-radius: 30px;
 	border: 3px solid transparent;
 	transition: .5s;
